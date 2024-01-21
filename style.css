@@ -1,0 +1,371 @@
+#blur1, #blur2, #blur3, #under-img{
+    filter: blur(5px);
+}
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.main-header {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.578);
+    height: 65px;
+}
+
+.header-nav {
+    position: absolute;
+    right: 0;
+    padding-top: 22px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    top: 0;
+}
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.header-nav li {
+    padding-right: 2em;
+    display: inline-block;
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 100%;
+    text-decoration-thickness: 16%;
+    cursor: pointer;
+}
+.header-burger {
+    display: none;
+}
+
+main{
+    background-color: #f6f6f6;
+}
+
+.main-title {
+    text-align: left;
+    color: white;
+    font-size: 2000;
+    margin-left: 43px;
+    margin-top: 25px;
+}
+
+.logo.t {
+    display: flex;
+    justify-content: left;
+}
+
+img {
+    margin-left: 30px;
+    margin-top: 110px;
+}
+
+.title1 {
+    display: flex;
+}
+
+h1 {
+    font-weight: 900;
+    color: #fff;
+    padding-left: 0.5em;
+    letter-spacing: 1px;
+    padding-top: 3.5em;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+.under-img {
+    background-color: black;
+    background-image: url(img/pexels-pixabay-70088\ 1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: left;
+}
+
+.about-us {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 5em auto 3em;
+    padding: 2% 3.5%;
+    font-size: 17px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.list-items {
+    margin: 10px 0 10px; 
+}
+
+.items {
+    margin-left: 2em;
+}
+
+.stores {
+    margin-bottom: 3em;
+}
+
+.stores h2, .promo h2 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.wrapper-1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-1 div {
+    padding: 20px 20px;
+  }
+
+.stores img {
+    margin: auto;
+    width: 400px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.wrapper-1 p {
+    text-align: center;
+}
+
+.small-screen {
+    display: none;
+}
+
+.large-screen {
+    display: block;
+}
+
+.small-screen-h1 {
+    display: none;
+}
+
+.large-screen-h1 {
+    display: block;
+}
+
+.promo-img {
+    border-top: 2px dashed black;
+    background-color: #ffffffab;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    padding: 110px 3.5%;
+    font-size: 35px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 100px;
+}
+
+.main-footer li {
+    padding-top: 40px;
+    display: inline-block;
+    padding-left: 2em;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main-footer a:hover {
+    color: #bdbdbd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sighn {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.pop_up {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 2;
+}
+
+.pop_up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_up_body {
+    margin: auto;
+    width: 600px;
+    min-height: 23em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.drop-container {
+    position: fixed;
+    padding-top: 15px;
+    width: 600px;
+    background-color: rgba(34, 34, 34, 0.594);
+    border-radius: 10px;
+    display: none;
+    height: 60px;
+}
+
+.in-pop-up {
+    margin-top: 25px;
+    padding: 55px 30px 0px 30px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(58, 56, 56);
+    margin-bottom: 40px;
+}
+
+.pop_up_body p {
+    padding: 0px 30px 0px 45px;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(58, 56, 56);
+    font-family: sans-serif;
+    line-height: 28px;
+}
+
+.second-popup-p {
+    margin-top: 1em;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    border-radius: 1px;
+    transition: 0.3s;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.no {
+    border: 1px solid rgb(58, 56, 56);
+    color: rgb(58, 56, 56);
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+.yes {
+    border: none;
+    background-color: rgb(58, 56, 56);;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+form {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.no:hover {
+    border: none;
+    color: #fff;
+    background-color: rgb(72, 72, 72);
+    transition: 0.3s;
+}
+
+.yes:hover {
+    cursor: pointer;
+    background-color: rgb(72, 72, 72);
+    transition: 0.3s;
+}
+
+@media (max-width:767px){
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+    .header-nav li {
+        padding-right: 15px;
+    }
+    .header-nav a {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .small-screen-h1 {
+        display: block;
+    }
+    .large-screen-h1 {
+        display: none;
+    }
+    .stores img {
+        width: 300px;
+    }
+    .pop_up_body {
+        width: 90%;
+    }
+    button {
+        width: 70%;
+    }
+    .drop-container {
+        width: 90%;
+    }
+    .in-pop-up {
+        margin-bottom: 20px;
+    }
+    .small-screen {
+        display: block;
+    }
+    .large-screen {
+        display: none;
+    }
+    .promo-img {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:380px) {
+    .header-nav li {
+        padding-right: 12px;
+    }
+    iframe {
+        width: 250px;
+        height: 170px;
+    }
+    .main-footer li {
+        padding-left: 1em;
+    }
+}
